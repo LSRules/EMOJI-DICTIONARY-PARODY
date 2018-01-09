@@ -1,10 +1,10 @@
-//
-//  AppDelegate.swift
-//  eDictionary
-//
-//  Created by Liam on 24/12/2017.
-//  Copyright © 2017 Liam. All rights reserved.
-//
+/*
+-  AppDelegate.swift
+-  eDictionary
+-  LegitCompanyXD
+-  Created by Liam on 24/12/2017.
+-  Copyright © 2017 Liam. All rights reserved.
+*/
 
 import UIKit
 
