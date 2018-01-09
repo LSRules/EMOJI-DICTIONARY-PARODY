@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="1343.2" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--DefineVC-->
         <scene sceneID="MZk-7U-pts">
             <objects>
-                <viewController id="vyh-aI-Kq6" sceneMemberID="viewController">
+                <viewController id="vyh-aI-Kq6" customClass="defineVC" customModule="eDictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nbZ-n7-76s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,8 +58,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A emoji that was supposed to represent the blood type 'B', but it was little understood." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEd-Hf-Jrw">
-                                <rect key="frame" x="20" y="626.5" width="335" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEd-Hf-Jrw">
+                                <rect key="frame" x="20" y="626.5" width="335" height="21"/>
+                                <string key="text">A emoji that was supposed to represent the blood type 'B', but it was little understood. In 2016, it was well known for some people to use this emoji to represent the word 'bro' or 'brother' and now it is featured in many ghetto memes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -75,6 +76,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lMJ-rS-ciE"/>
                     </view>
+                    <connections>
+                        <outlet property="emojiDEFINE" destination="LEd-Hf-Jrw" id="MbL-TC-RAF"/>
+                        <outlet property="emojiLABEL" destination="bSN-1C-26N" id="gK5-ts-bCs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzm-Zz-O4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
